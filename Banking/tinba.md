@@ -1,0 +1,8 @@
+#### Tinba
+
+```
+Type: SQLi
+
+\tinybanker panel\admin/control/logs.act.php http://localhost/logs.act.php Post Data: bot_uid=1&botcomment=mate
+POST
+```
