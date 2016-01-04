@@ -1,5 +1,8 @@
 ### Malware Exploit Database
 
-Made to be used by Raneto. This is not online yet.
+![alt text](http://i.imgur.com/3dYszDH.png)
 
-Feel free to make PR
+Made to be used by [Raneto](https://github.com/gilbitron/Raneto).
+This is not online yet but it should be soon.
+
+Feel free to make a PR to add vulnerabilities.
