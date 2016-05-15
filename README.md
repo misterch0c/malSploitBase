@@ -1,4 +1,4 @@
-### [Malware Exploit Database](https://security-base.com:8000/)
+### [Malware Exploit Database](https://security-base.com:8000)
 
 ![alt text](http://i.imgur.com/3dYszDH.png)
 
