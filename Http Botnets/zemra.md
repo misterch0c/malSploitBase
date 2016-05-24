@@ -2,8 +2,8 @@
 
 
 Type: Remote Code Execution
-
-Metasploit Author: [shipcod3 / Jay Turla](https://twitter.com/shipcod3)
+Vuln: http://localhost/Zemra/Panel/Zemra/system/command.php?cmd=<payload here>
+Author: [shipcod3 / Jay Turla](https://twitter.com/shipcod3)
 
 ```
 ##
