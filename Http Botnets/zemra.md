@@ -1,8 +1,9 @@
 #### Zemra
 
-
 Type: Remote Code Execution
+
 Vuln: http://localhost/Zemra/Panel/Zemra/system/command.php?cmd=<payload here>
+
 Author: [shipcod3 / Jay Turla](https://twitter.com/shipcod3)
 
 ```
