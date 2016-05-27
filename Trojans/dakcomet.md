@@ -7,6 +7,8 @@ Kevin Breen - DarkComet From Defense To Offense - Identify your Attacker
 
 [POC by Shawn Denbow and Jesse Herts](http://www.matasano.com/research/PEST-CONTROL.pdf)
 
+[Wikipedia](https://en.wikipedia.org/wiki/DarkComet)
+
 #### Vulnerabilities
 
 * Remote file read
