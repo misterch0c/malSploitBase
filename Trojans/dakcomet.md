@@ -16,3 +16,5 @@ Kevin Breen - DarkComet From Defense To Offense - Identify your Attacker
 * SQL injection
 
 [DarkComet ToolKit](https://github.com/kevthehermit/dc-toolkit)
+
+[DarkComet Metasploit Module](https://github.com/samvartaka/exploits/blob/master/darkcomet_filedownloader.rb)
