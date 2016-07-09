@@ -1,11 +1,11 @@
-# Rockloader
-
+```
     Type: SQLi and shell file upload
     Author: Danail Velev
     Contact: ICQ: 209030 / d.velev@colocation.bg
     Website: http://colocation.bg/
     Software: https://github.com/colocation/RockLoader-source
     Original Release: https://cxsecurity.com/ascii/WLB-2016070003
+```
 
 ## Summary: SQL Injections
 NO user registration required. The Command and Control Server processing the spread requests,user tasks and responsible for the process, is suffering from mutiple remote sql injection. Common C&C server path is "/cp/login/" in most common setups. Since the specific of the spreader and it's functionality, methods of encryption and working process, There is possibility for RCE,MSF/CMD injection and local root post 
@@ -27,7 +27,7 @@ Affected parameters are "username" and "password" via specifict POST request.
 The 3th parameter is the php session.
 
 
-###----=(SQL Injection 1)=----
+### ----=(SQL Injection 1)=----
 ```
 Type: error-based
 Method: POST
@@ -57,7 +57,7 @@ Accept: */*
 password=S0M3PaSSw0rd&username=d0na1DTrump
 -----------------END--------------------
 ```
-###----=(SQL Injection 2)=----
+### ----=(SQL Injection 2)=----
 ```
 Type: AND/OR time-based blind
 Method: POST
@@ -84,7 +84,7 @@ password=S0M3PaSSw0rd&username=d0na1DTrump
 -----------------END--------------------
 ```
 
-###----=(Shell Upload POC)=----
+### ----=(Shell Upload POC)=----
 ```
 Requirements:
 - Valid user for control panel.
@@ -107,7 +107,7 @@ http://127.0.0.1/files/c932kc.php
 
 -----------------END--------------------
 ```
-###----=(Database user and password disclose)=----
+### ----=(Database user and password disclose)=----
 ```
 
 Example request to get the directory location:
@@ -158,7 +158,7 @@ define('DB_PORT', '3307');
 ......
 ---EndSnip---
 ```
-###----=(XOR Encrypton key and password salt disclose)=----
+### ----=(XOR Encrypton key and password salt disclose)=----
 ```
 
 Read the settings.php file (/var/www/appdater/html/settings.php)
@@ -179,7 +179,7 @@ Control Panel anddd....
 The most important --> THE SALT !
 
 ```
-###---=(Admin panel password generator)=---
+### ---=(Admin panel password generator)=---
 ```
 
 Read the core/functions.php file 
