@@ -1,4 +1,3 @@
-#### Cythosia
 
 ```
 Type: Stored XSS and iFrame redirect

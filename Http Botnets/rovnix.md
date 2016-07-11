@@ -1,4 +1,3 @@
-#### Rovnix
 
 
 Type: Hash Collision

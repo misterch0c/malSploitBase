@@ -1,4 +1,4 @@
-#### Zemra
+
 
 Type: Remote Code Execution
 

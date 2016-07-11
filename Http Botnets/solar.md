@@ -1,4 +1,3 @@
-#### Solarbot
 
 ```
 SQL injection.

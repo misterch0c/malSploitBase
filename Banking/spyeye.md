@@ -1,4 +1,3 @@
-#### Spy-Eye
 
 [Wikipedia](https://en.wikipedia.org/wiki/SpyEye_%28malware%29)
 

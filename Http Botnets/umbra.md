@@ -1,4 +1,4 @@
-#### Umbra Loader
+
 
 ```
 Type: SQLi

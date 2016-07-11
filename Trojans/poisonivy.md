@@ -1,4 +1,4 @@
-#### Poison Ivy
+
 
 Type: Stack Buffer Overflow
 

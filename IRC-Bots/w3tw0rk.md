@@ -1,4 +1,4 @@
-#### w3tw0rk / Pitbul
+
 
 Type: Remote Code Execution
 

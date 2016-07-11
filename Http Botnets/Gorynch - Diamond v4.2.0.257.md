@@ -1,4 +1,3 @@
-#### Gorynych/DiamondFox v4.2.0.257
 
 
 Type: File Upload Vulnerability

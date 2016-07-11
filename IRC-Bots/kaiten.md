@@ -1,4 +1,4 @@
-#### kaiten
+
 
 Type: Remote Code Execution
 

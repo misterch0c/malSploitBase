@@ -1,4 +1,4 @@
-#### Soraya
+
 
 Type: XSS
 

@@ -1,4 +1,3 @@
-#### Citadel
 
 [Wikipedia](https://en.wikipedia.org/wiki/Citadel_%28malware%29)
 

@@ -1,4 +1,4 @@
-#### Phase Botnet
+
 
 Type: Blind SQL injection vulnerability
 

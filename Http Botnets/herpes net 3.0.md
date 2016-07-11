@@ -1,9 +1,9 @@
-#### Herpes Net 3.0
 
 
 Type:  SQL Injection
 
 Author: [bwall](https://twitter.com/botnet_hunter)
+
 https://bwall.github.io/herpes-net-3.0-sqli/
 
 ```

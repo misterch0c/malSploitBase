@@ -1,4 +1,3 @@
-#### Atrax
 
 
 Type:  Shell Upload Vulnerability

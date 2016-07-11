@@ -1,4 +1,3 @@
-#### iBanking
 
 
 Type: Panel Upload Vulnerability

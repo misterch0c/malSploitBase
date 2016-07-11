@@ -1,4 +1,3 @@
-#### Athena
 
 <pre>
 Type: SQLi

@@ -1,4 +1,3 @@
-#### Smoke Loader
 
 ```
 Type: SQLi

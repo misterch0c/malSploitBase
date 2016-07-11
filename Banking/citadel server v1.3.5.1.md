@@ -1,4 +1,3 @@
-#### Citadel v1.3.5.1
 
 
 Type: Remote Code Execution

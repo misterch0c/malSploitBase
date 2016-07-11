@@ -1,6 +1,7 @@
-#### ATS Engine
 
-Type: Information Disclosure<br>
+
+Type: Information Disclosure
+
 Author: [Xylitol](https://twitter.com/Xylit0l)
 
 ```

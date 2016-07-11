@@ -1,4 +1,3 @@
-#### Dendroid
 
 
 Type: Remote Code Execution

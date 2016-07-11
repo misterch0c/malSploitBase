@@ -1,4 +1,4 @@
-#### Legend Perl IRC Bot
+
 
 Type: Remote Code Execution
 

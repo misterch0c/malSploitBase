@@ -1,4 +1,3 @@
-#### Tinba
 
 [Wikipedia](https://en.wikipedia.org/wiki/Tiny_Banker_Trojan)
 

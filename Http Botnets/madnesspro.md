@@ -1,4 +1,5 @@
-#### MadnessPro
+
+
 Type: SQLi<br>
 Vuln: http://localhost/?uid=<br>
 Author: [bwall](https://twitter.com/botnet_hunter)<br>

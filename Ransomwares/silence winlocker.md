@@ -1,4 +1,4 @@
-#### Silence Winlocker V5.0
+
 
 ```
 SQL injection.

@@ -1,4 +1,3 @@
-#### Neutrino Bot
 
 
 Type: Bruteforce
