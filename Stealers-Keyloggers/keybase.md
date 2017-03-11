@@ -169,7 +169,7 @@ else:
 
 Type: SQL injection
 
-Author: [voidsec] write by [Futex](https://voidsec.com/keybase-en/)
+Author: [voidsec](https://voidsec.com/keybase-en/) write by [Futex](https://futex.re/)
 
 Post.php is vulnerable to SQL Injection (Error & Blind Based), the parameters machinename, windowtitle, keystrokestyped and machinetime are not filtered properly.
 
@@ -192,7 +192,7 @@ Parameter: machinename (GET)
 
 Type: XSS vulnerability
 
-Author: [voidsec] write by [Futex](https://voidsec.com/keybase-en/)
+Author: [voidsec](https://voidsec.com/keybase-en/) write by [Futex](https://futex.re/)
 
 ```
 GET /keybase/post.php?keystrokestyped=a'"<script>alert('xss')</script>&machinename=1&machinetime=a&type=keystrokes&windowtitle=a
